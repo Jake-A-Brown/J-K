@@ -1,0 +1,14 @@
+.container-div {
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.605);
+    color: white;
+  }
+
+.main-div{
+    background-color:grey;
+    display: "flex";
+  }
