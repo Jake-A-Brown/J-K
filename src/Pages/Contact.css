@@ -31,6 +31,10 @@
   .contact-item h3 {
     margin-bottom: 10px;
   }
+
+  .google-reviews{
+    color: white;
+  }
   
   /* Media Query for smaller screens */
   @media (max-width: 768px) {

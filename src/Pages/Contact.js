@@ -4,6 +4,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import EmailLink from "../components/EmailLink/EmailLink";
 import PhoneNumberLink from "../components/PhoneNumberLink/PhoneNumberLink";
 import "./Contact.css";
+import FetchGoogleReviews from "../components/FetchGoogleReviews/FetchGoogleReviews";
 
 const Contact = () => {
   return (
@@ -33,6 +34,7 @@ const Contact = () => {
           <p> Hillsboro, NC</p>
         </div>
       </div>
+      <div className="google-reviews"><FetchGoogleReviews apiKey='AIzaSyAth3hKTJRf1cuXsdYGPmxCCXXvn763qsA' placeId='ChIJX0KPZpjZrIkRrQvvcwMWbbk' /></div>
     </div>
   );
 };
