@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/J-K/static/css/main.484f3777.css",
-    "main.js": "/J-K/static/js/main.2d5ef7fc.js",
-    "static/media/JKnew.png": "/J-K/static/media/JKnew.d37765d7d9bf51b1a56e.png",
-    "index.html": "/J-K/index.html",
-    "main.484f3777.css.map": "/J-K/static/css/main.484f3777.css.map",
-    "main.2d5ef7fc.js.map": "/J-K/static/js/main.2d5ef7fc.js.map"
+    "main.css": "/static/css/main.bff754f1.css",
+    "main.js": "/static/js/main.c135afb9.js",
+    "static/media/during-trl.jpg": "/static/media/during-trl.acd8d59ab4f104d11437.jpg",
+    "static/media/setup-build.jpg": "/static/media/setup-build.510b3465c1b61e303b85.jpg",
+    "static/media/after-trl.jpg": "/static/media/after-trl.134780284564f9ae2cd3.jpg",
+    "static/media/before-after-concrete.jpg": "/static/media/before-after-concrete.b0e0dabce4f6b665db05.jpg",
+    "static/media/self.jpg": "/static/media/self.8a0434e56dc82ac8c2fc.jpg",
+    "static/media/before-stone-patio.jpg": "/static/media/before-stone-patio.39629d6bac60dac3ccba.jpg",
+    "static/media/logo.jpg": "/static/media/logo.3595bf1c9b1c2792dd72.jpg",
+    "static/media/after-stone-patio-larger.jpg": "/static/media/after-stone-patio-larger.87f7164dee08b30cb035.jpg",
+    "static/media/concrete-walkway-before-after.jpg": "/static/media/concrete-walkway-before-after.2b65b1e1f778517d319d.jpg",
+    "static/media/side-walk-before-after.jpg": "/static/media/side-walk-before-after.bbe29fd7de598dcf702c.jpg",
+    "static/media/gas-station-cleaning.jpg": "/static/media/gas-station-cleaning.5b2023d064c54846b5d7.jpg",
+    "index.html": "/index.html",
+    "main.bff754f1.css.map": "/static/css/main.bff754f1.css.map",
+    "main.c135afb9.js.map": "/static/js/main.c135afb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.484f3777.css",
-    "static/js/main.2d5ef7fc.js"
+    "static/css/main.bff754f1.css",
+    "static/js/main.c135afb9.js"
   ]
 }
