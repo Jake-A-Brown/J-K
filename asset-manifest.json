@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.bff754f1.css",
-    "main.js": "/static/js/main.c135afb9.js",
-    "static/media/during-trl.jpg": "/static/media/during-trl.acd8d59ab4f104d11437.jpg",
-    "static/media/setup-build.jpg": "/static/media/setup-build.510b3465c1b61e303b85.jpg",
-    "static/media/after-trl.jpg": "/static/media/after-trl.134780284564f9ae2cd3.jpg",
-    "static/media/before-after-concrete.jpg": "/static/media/before-after-concrete.b0e0dabce4f6b665db05.jpg",
-    "static/media/self.jpg": "/static/media/self.8a0434e56dc82ac8c2fc.jpg",
-    "static/media/before-stone-patio.jpg": "/static/media/before-stone-patio.39629d6bac60dac3ccba.jpg",
-    "static/media/logo.jpg": "/static/media/logo.3595bf1c9b1c2792dd72.jpg",
-    "static/media/after-stone-patio-larger.jpg": "/static/media/after-stone-patio-larger.87f7164dee08b30cb035.jpg",
-    "static/media/concrete-walkway-before-after.jpg": "/static/media/concrete-walkway-before-after.2b65b1e1f778517d319d.jpg",
-    "static/media/side-walk-before-after.jpg": "/static/media/side-walk-before-after.bbe29fd7de598dcf702c.jpg",
-    "static/media/gas-station-cleaning.jpg": "/static/media/gas-station-cleaning.5b2023d064c54846b5d7.jpg",
-    "index.html": "/index.html",
-    "main.bff754f1.css.map": "/static/css/main.bff754f1.css.map",
-    "main.c135afb9.js.map": "/static/js/main.c135afb9.js.map"
+    "main.css": "/J-K/static/css/main.bff754f1.css",
+    "main.js": "/J-K/static/js/main.76cc3882.js",
+    "static/media/during-trl.jpg": "/J-K/static/media/during-trl.acd8d59ab4f104d11437.jpg",
+    "static/media/setup-build.jpg": "/J-K/static/media/setup-build.510b3465c1b61e303b85.jpg",
+    "static/media/after-trl.jpg": "/J-K/static/media/after-trl.134780284564f9ae2cd3.jpg",
+    "static/media/before-after-concrete.jpg": "/J-K/static/media/before-after-concrete.b0e0dabce4f6b665db05.jpg",
+    "static/media/self.jpg": "/J-K/static/media/self.8a0434e56dc82ac8c2fc.jpg",
+    "static/media/before-stone-patio.jpg": "/J-K/static/media/before-stone-patio.39629d6bac60dac3ccba.jpg",
+    "static/media/logo.jpg": "/J-K/static/media/logo.3595bf1c9b1c2792dd72.jpg",
+    "static/media/after-stone-patio-larger.jpg": "/J-K/static/media/after-stone-patio-larger.87f7164dee08b30cb035.jpg",
+    "static/media/concrete-walkway-before-after.jpg": "/J-K/static/media/concrete-walkway-before-after.2b65b1e1f778517d319d.jpg",
+    "static/media/side-walk-before-after.jpg": "/J-K/static/media/side-walk-before-after.bbe29fd7de598dcf702c.jpg",
+    "static/media/gas-station-cleaning.jpg": "/J-K/static/media/gas-station-cleaning.5b2023d064c54846b5d7.jpg",
+    "index.html": "/J-K/index.html",
+    "main.bff754f1.css.map": "/J-K/static/css/main.bff754f1.css.map",
+    "main.76cc3882.js.map": "/J-K/static/js/main.76cc3882.js.map"
   },
   "entrypoints": [
     "static/css/main.bff754f1.css",
-    "static/js/main.c135afb9.js"
+    "static/js/main.76cc3882.js"
   ]
 }
