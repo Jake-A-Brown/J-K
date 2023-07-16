@@ -1,4 +1,44 @@
 .about-container{
+    padding: 20px;
     display:flex;
-    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(27, 26, 26);
+}
+
+.about-self{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 70%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-img{
+    margin-right: 15px;
+    margin-left:15px ;
+    margin-top: 20px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-container-item{
+    display:flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+@media (max-width: 767px) {
+    .about-container-item{
+        flex-direction: column;
+    }
+    
 }

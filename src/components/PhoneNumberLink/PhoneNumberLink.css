@@ -1,4 +1,8 @@
 /* PhoneNumberLink.css */
+
+.phone-num-link{
+  color:gold;
+}
   
   h2 {
     margin-top: 0;
@@ -13,31 +17,23 @@
   } */
   
   .text-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    margin: 4px 8px;
-    border-radius: 4px;
-    font-size: 14px;
+    color: #007bff;
     cursor: pointer;
-    width: 3rem;
-    padding: 0;
     justify-content: center;
   }
   
   .text-button:hover {
-    background-color: #0056b3;
+    color: #0c78eb;
     scale: 1.1;
   }
   
   div a {
-    color: #007bff;
+    color:gold;
     text-decoration: none;
-    color: black;
   }
   
-  div a:hover {
-    text-decoration: underline;
-    color: #007bff;
+  .email-link:hover {
+    text-decoration: none;
+    color:gold;
   }
   

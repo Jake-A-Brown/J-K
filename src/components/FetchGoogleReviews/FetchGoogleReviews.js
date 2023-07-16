@@ -1,8 +1,9 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import './FetchGoogleReviews.css';
 
 const FetchGoogleReviews = ({ apiKey, placeId }) => {
   const reviewsRef = useRef(null);
+  const [hideReviews, setHideReviews] = useState(true);
 
   useEffect(() => {
     const script = document.createElement("script");
@@ -21,7 +22,7 @@ const FetchGoogleReviews = ({ apiKey, placeId }) => {
             if (status === window.google.maps.places.PlacesServiceStatus.OK) {
               const reviews = place.reviews || [];
 
-              const limitedReviews = reviews.slice(0, 4);
+              const limitedReviews = reviews.slice(0, 5);
 
               limitedReviews.forEach((review) => {
                 const reviewElement = document.createElement("div");
@@ -56,9 +57,18 @@ const FetchGoogleReviews = ({ apiKey, placeId }) => {
     };
   }, [apiKey, placeId]);
 
+  const toggleReviews = () => {
+    setHideReviews((prevHideReviews) => !prevHideReviews);
+  };
+
   return (
-    <div className="reviews-container" ref={reviewsRef}>
-      <h3>Google Reviews</h3>
+    <div className="review-container">
+      <label className="label-reviews" onClick={toggleReviews}>
+        {hideReviews ? "What others have said on Google reviews" : "Hide Reviews"}
+      </label>
+      <div className={`reviews-container ${hideReviews ? 'hide-reviews' : ''}`} ref={reviewsRef}>
+        <h3>Google Reviews</h3>
+      </div>
     </div>
   );
 };

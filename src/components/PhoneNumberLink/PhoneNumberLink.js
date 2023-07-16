@@ -11,19 +11,24 @@ const PhoneNumberLink = () => {
     window.location.href = telLink;
   };
 
-  const handleTextMessage = () => {
-    const smsLink = `sms:${phoneNumber}`;
-    window.location.href = smsLink;
-  };
+  // const handleTextMessage = () => {
+  //   const smsLink = `sms:${phoneNumber}`;
+  //   window.location.href = smsLink;
+  // };
 
   return (
     <div>
-      <Link to="#" onClick={handlePhoneCall}>
-        Call {phoneNumber} Or
+      <Link className='phone-num-link' to="#" onClick={handlePhoneCall}>
+        {phoneNumber}
       </Link>
-      <button className="text-button" onClick={handleTextMessage}>
-        Text
-      </button>
+      <div>
+        {/* <FontAwesomeIcon
+        size='2x'
+        className="text-button"
+        icon={faComments}
+        onClick={handleTextMessage}
+        /> */}
+      </div>
     </div>
   );
 };

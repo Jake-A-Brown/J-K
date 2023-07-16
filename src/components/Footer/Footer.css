@@ -6,6 +6,11 @@
     color: aliceblue;
 } */
 
+.email-link{
+    color:rgb(9, 246, 246);
+    transform: ease-in-out (1,2);
+}
+
 .section-padding{
     padding:4rem 4rem;
 }
@@ -15,8 +20,13 @@
 }
 
 .footer{
-    background-color:rgb(242, 82, 64);
+    background-color:rgb(247, 34, 10);
     box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.674);
+}
+
+.footer a:hover{
+    text-decoration: none;
+    scale:1.1;
 }
 
 .footer-section{
@@ -46,7 +56,7 @@
 
 .footer-links-div p{
     text-decoration:none;
-    color:rgb(100, 248, 248);
+    color:rgba(6, 232, 228, 0.982);
 }
 
 a{
@@ -90,7 +100,8 @@ a{
 }
 
 hr{
-    color: white;
+    height: 3px;
+    background-color: white !important;
     width: 100%;
 }
 

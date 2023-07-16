@@ -1,7 +1,7 @@
 import './Navbar.css';
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { useState } from 'react';
-import CLogO from './JKnew.png';
+// import CLogO from './JKnew.png';
 
 const Navbar = () => {
 
@@ -16,13 +16,14 @@ const Navbar = () => {
     return(
         <nav className="nav">
         <Link to="/" className="site-title">
-        <img src={CLogO} alt="Company logo" className='clogo'/>{/*Site Name */}
+          <div className='nav-home-logo'>J&K PW</div>
+        {/* <img src={CLogO} alt="Company logo" className='clogo'/>Site Name */}
         </Link>
         <ul className={active}>
-          <CustomLink to="/about">About</CustomLink>
-          <CustomLink to="/contact">Contact</CustomLink>
           <CustomLink to="/services">Services</CustomLink>
-          <CustomLink to="/">Home</CustomLink>
+          <CustomLink to="/about">About</CustomLink>
+          <CustomLink to="/contact">Free Quote</CustomLink>
+          {/* <CustomLink to="/">Home</CustomLink> */}
         </ul>
         <div onClick={navToggle} className={toggleIcon}>
           <div className="line1"></div>

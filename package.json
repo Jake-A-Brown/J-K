@@ -1,7 +1,6 @@
 {
   "name": "react-pressure-washer",
   "version": "0.1.0",
-  "homepage": "https://jake-a-brown.github.io/J-K",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
