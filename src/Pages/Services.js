@@ -29,9 +29,9 @@ const Services = () => {
             />
           </div>
         </div>
-        <div className="services-item-description">Item Description 1</div>
+        <div className="services-item-description">Watch as Our Pressure Washing Experts Reveal the Original Splendor of This Stone Masoned Patio.</div><br/>
         <hr></hr>
-        <Link to='/contact' className="services-label">Click for a free quote</Link>
+        <Link to='/contact' className="services-label"><p className="service-p-quote"> Click for a free quote</p> </Link>
         <div className="services-pic-item">
           <div className="services-img">
             <img className="stone-patio-after-image" src={duringTrl} alt="" />
@@ -44,9 +44,9 @@ const Services = () => {
             />
           </div>
         </div>
-        <div className="services-item-description">Item Description 2</div>
+        <div className="services-item-description">Mildew, Be Gone! Witness the Incredible Transformation as Our Pressure Washing Unveils the Hidden Charm of this Mobile Home.</div><br/>
         <hr></hr>
-        <Link to='/contact' className="services-label">Click for a free quote</Link>
+        <Link to='/contact' className="services-label"><p className="service-p-quote"> Click for a free quote</p></Link>
         <div className="services-pic-item">
           <img
             className="stone-patio-after-image"
@@ -54,9 +54,9 @@ const Services = () => {
             alt=""
           />
         </div>
-        <div className="services-item-description">Item Description 3</div>
+        <div className="services-item-description">The Power of Precision: Our Pressure Washing Experts Leave No Corner Untouched, Restoring This Concrete Walkway to Perfection.</div><br/>
         <hr></hr>
-        <Link to='/contact' className="services-label">Click for a free  quote</Link>
+        <Link to='/contact' className="services-label"><p className="service-p-quote"> Click for a free quote</p></Link>
         <div className="services-pic-item">
           <img
             className="stone-patio-after-image"
@@ -64,9 +64,9 @@ const Services = () => {
             alt=""
           />
         </div>
-        <div className="services-item-description">Item Description 4</div>
+        <div className="services-item-description">Witness the Magic of Our Pressure Washing as it Restores These Concrete Steps to Their Former Glory.</div><br/>
         <hr></hr>
-        <Link to='/contact' className="services-label">Click for a free  quote</Link>
+        <Link to='/contact' className="services-label"><p className="service-p-quote"> Click for a free quote</p></Link>
         <div className="services-pic-item">
           <img
             className="stone-patio-after-image"
@@ -74,9 +74,9 @@ const Services = () => {
             alt=""
           />
         </div>
-        <div className="services-item-description">Item Description 5</div>
+        <div className="services-item-description">Fueling a Fresh Look: Our Pressure Washing and Buffing Service Transforms This Gas Station, Leaving It Spotless and Inviting.</div><br/>
         <hr></hr>
-        <Link to='/contact' className="services-label">Click for a free  quote</Link>
+        <Link to='/contact' className="services-label"><p className="service-p-quote"> Click for a free quote</p></Link>
         <div className="services-pic-item">
           <img
             className="stone-patio-after-image"
@@ -84,9 +84,9 @@ const Services = () => {
             alt=""
           />
         </div>
-        <div className="services-item-description">Item Description 6</div>
+        <div className="services-item-description">A Clean Canvas: Discover the Power of Our Pressure Washing on This Once Blackened Sidewalk.</div><br/>
         <hr></hr>
-        <Link to='/contact' className="services-label">Click for a free  quote</Link>
+        <Link to='/contact' className="services-label"><p className="service-p-quote"> Click for a free quote</p></Link>
       </div>
       {/* <div className='bottom-text'><FetchGoogleReviews apiKey='AIzaSyAth3hKTJRf1cuXsdYGPmxCCXXvn763qsA' placeId='ChIJX0KPZpjZrIkRrQvvcwMWbbk' /></div>  */}
     </div>

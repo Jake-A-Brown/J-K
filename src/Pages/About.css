@@ -11,10 +11,10 @@
 
 .about-self{
     width: 200px;
-    height: 300px;
+    height: 275px;
     object-fit: cover;
-    border-radius: 70%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(79, 76, 76, 0.918);
 }
 
 .about-img{
